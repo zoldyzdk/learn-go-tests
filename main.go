@@ -4,8 +4,10 @@ import (
   "fmt"
 )
 
+const prefixHello = "Hello, "
+
 func Hello(nome string) string {
-  return "Hello, " + nome
+  return prefixHello + nome
 }
 
 func main() {
