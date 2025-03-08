@@ -1,3 +1,3 @@
-module example/learn-go-tests
+module github.com/zoldyzdk/learn-go-tests
 
-go 1.20
+go 1.24.0
