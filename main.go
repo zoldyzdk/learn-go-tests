@@ -1,13 +1,16 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 const prefixHello = "Hello, "
 
-func Hello(nome string) string {
-  return prefixHello + nome
+func Hello(name string) string {
+	if name == "" {
+		name = "World"
+	}
+  return prefixHello + name
 }
 
 func main() {
